@@ -1,0 +1,9 @@
+#main-div{
+  display: flex;
+  justify-content: space-between;
+  margin:20px;
+}
+#right-div{
+    display: flex;
+    gap:20px;
+}
