@@ -1,0 +1,109 @@
+{
+    "Shirts":[
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        }
+    ],
+
+    "Pants":[
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        }
+    ],
+
+    "shoes":[
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        }
+    ],
+    
+    "Brand":[
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91jY11-uhuL._AC_UL1500_.jpg"
+        }
+    ]
+}

@@ -1,80 +1,65 @@
-
-
-/* Login.css */
 .login-container {
     min-height: 100vh;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    background:#dce2eb;
     padding: 20px;
   }
   
-  .login-card {
+  .login-form {
     background: white;
     padding: 40px;
-    border-radius: 15px;
+    border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 450px;
   }
   
-  .login-title {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #2c3e50;
+  .login-form h2 {
+    color: #1a1a1a;
     font-weight: 600;
-  }
-  
-  .login-form .form-group {
-    margin-bottom: 1.5rem;
-  }
-  
-  .login-form label {
-    font-weight: 500;
-    color: #34495e;
-  }
-  
-  .login-input {
-    border-radius: 8px;
-    padding: 12px;
-    border: 2px solid #ecf0f1;
-    transition: all 0.3s ease;
-  }
-  
-  .login-input:focus {
-    border-color: #3498db;
-    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    margin-bottom: 30px;
   }
   
   .login-button {
-    width: 100%;
-    padding: 12px;
-    font-weight: 600;
-    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    background: #007bff;
     border: none;
-    border-radius: 8px;
-    margin-top: 15px;
-    transition: all 0.3s ease;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
   }
   
   .login-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
-  }
-  
-  .signup-redirect {
-    text-align: center;
-    margin-top: 20px;
-    color: #7f8c8d;
+    background: #0056b3;
   }
   
   .signup-link {
-    color: #3498db;
-    cursor: pointer;
+    color: #007bff;
+    text-decoration: none;
     font-weight: 500;
   }
   
   .signup-link:hover {
     text-decoration: underline;
+  }
+  
+  /* Reuse these styles if not already in a shared CSS file */
+  .form-control-lg {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control-lg:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .form-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
   }

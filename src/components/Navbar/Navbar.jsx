@@ -8,12 +8,12 @@ function Navbar() {
     return (
         <div id='main-div'>
             <div id='left-div'>
-                <h4>Logo</h4>
+                <h4>Outfittery</h4>
             </div>
             <div id='right-div'>
-                <Button onClick={() => navigate("/signupPage")}>SignUp</Button>
+                <Button onClick={() => navigate("/signupPage")}>Signup</Button>
                 <Button onClick={() => navigate("/loginPage")}>Login</Button>
-            </div>
+            </div>  
         </div>
     )
 }

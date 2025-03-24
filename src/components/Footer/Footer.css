@@ -1,0 +1,24 @@
+#footer-main-Div{
+    display: flex;
+    justify-content:center;
+    gap: 420px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+#footer-right-Div{
+    display: flex;
+    gap:50px;
+}
+#footer-left-Div{
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+}
+#left-Div2{
+    display: flex;
+    flex-direction: column;
+}
+#icons-Div{
+    display: flex;
+    gap:10px;
+}
