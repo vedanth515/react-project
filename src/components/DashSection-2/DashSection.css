@@ -1,0 +1,90 @@
+.style-swipe-container {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f7;
+    padding: 30px;
+  }
+  
+  .top-banner {
+    display: flex;
+    background: linear-gradient(to right, #b3d5db, #c1dbe1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .banner-text h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  .banner-text p {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .banner-text a {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .banner-image img {
+    height: 120px;
+    border-radius: 5px;
+  }
+  
+  .autopilot-section {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+  }
+  
+  .label {
+    color: #a0aab2;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .left h3 {
+    margin-top: 10px;
+  }
+  
+  .left button {
+    margin-top: 20px;
+    background: linear-gradient(to right, #0074c1, #00bdd6);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .right {
+    flex: 1;
+    background-color: #edf0f2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .feature {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  

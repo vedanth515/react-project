@@ -1,0 +1,65 @@
+.container {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card.selected {
+    border: 2px solid #007bff;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+}
+
+.none-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.continue-button {
+    background-color: #b3e5fc;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.continue-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.continue-button:not(:disabled) {
+    opacity: 1;
+}

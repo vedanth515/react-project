@@ -3,8 +3,10 @@ import './Section2.css'
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { RiWomenLine } from "react-icons/ri";
 import { TfiCheckBox } from "react-icons/tfi";
+import { useNavigate } from 'react-router-dom';
 
 function Section2() {
+    const navigate=useNavigate()
     return (
         <div id='main-Div'>
             <div id='sub-Div1'>
@@ -28,7 +30,7 @@ function Section2() {
                 </div>
             </div>
             <div id='btn'>
-                <button>TRY IT NOW</button>
+                <button onClick={() => navigate('/shirts')}>TRY IT NOW</button>
             </div>
         </div>
     )

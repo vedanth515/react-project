@@ -14,7 +14,7 @@ function LunchPage() {
       <Section3/>
       <Section4/>
       <hr></hr>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
    
   );

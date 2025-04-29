@@ -1,4 +1,4 @@
-#main-Div{
+/* #main-Div{
     width:100%;
     margin-bottom: 100px;
 }
@@ -66,4 +66,129 @@
     background-color: #09AFCC;
     color: white;
     border: none;
+} */
+
+
+#main-Div {
+  width: 100%;
+  margin-bottom: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title Section */
+#section-container1 {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#section-container1 h1 {
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 900px;
+  color: #222;
+  line-height: 1.4;
+}
+
+/* Main Content Grid */
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+/* Card Style */
+.section-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.section-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Box Backgrounds */
+.left-box {
+  background-color: #f9f9f9;
+}
+
+.right-box {
+  background-color: #ebebeb;
+}
+
+/* Typography */
+.section-box h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-box p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Images */
+.section-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Button */
+#btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#btn button {
+  width: 280px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #09AFCC;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#btn button:hover {
+  background-color: #0799b1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #section-container1 h1 {
+      font-size: 22px;
+  }
+
+  .section-container {
+      padding: 20px;
+  }
+
+  .section-box {
+      padding: 20px;
+  }
+
+  #btn button {
+      width: 220px;
+      font-size: 14px;
+  }
 }

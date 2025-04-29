@@ -1,0 +1,11 @@
+#dashbtn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width:100px;
+    background-color:lightskyblue;
+    color: white;
+}
+#nav{
+    padding:5px;
+}

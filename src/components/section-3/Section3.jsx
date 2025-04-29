@@ -1,12 +1,14 @@
 
 import React from "react";
 import "./Section3.css"; // Import the CSS file
+import { useNavigate } from "react-router-dom";
 
 function Section3() {
+  const navigate=useNavigate()
   return (
     <div id="main-Div">
         <div id="section-container1">
-        <h1>Why you should try Europe's biggest personal shopping service for men:</h1>
+        <h1>Why you should try Europe's biggest personal shopping service for men!</h1>
     </div>
     <div className="section-container">
       {/* Left Section */}
@@ -39,7 +41,7 @@ function Section3() {
       </div>
     </div>
     <div id="btn">
-        <button>TRY IT NOW</button>
+        <button onClick={() => navigate('/shirts')}>TRY IT NOW</button>
     </div>
     </div>
   );

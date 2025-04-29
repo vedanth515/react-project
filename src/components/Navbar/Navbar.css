@@ -1,4 +1,4 @@
-#main-div{
+/* #main-div{
   display: flex;
   justify-content: space-around;
   background-color:white;
@@ -16,4 +16,77 @@
   font-family: sans-serif;
 }
 
+ */
+ #main-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  position: relative;
+}
+#logobtn{
+  border: none;
+  background-color: white;
+}
+/* Logo styling */
+#left-div h4 {
+  font-size: 24px;
+  /* font-weight: bold; */
+  color: #222;
+  margin: 0;
+}
 
+/* Right button container */
+#right-div {
+  display: flex;
+  gap: 30px;
+}
+
+/* Button styling */
+#right-div button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 17px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+#right-div button:hover{
+      text-decoration:underline orange;  
+}
+
+/* Hamburger icon hidden on desktop */
+#hamburger-icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  #hamburger-icon {
+    display: block;
+  }
+
+  #right-div {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: white;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 999;
+  }
+
+  #right-div.show {
+    display: flex;
+  }
+
+  #right-div button {
+    font-size: 16px;
+  }
+}

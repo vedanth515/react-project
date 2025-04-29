@@ -1,4 +1,4 @@
-#footer-main-Div{
+/* #footer-main-Div{
     display: flex;
     justify-content:center;
     gap: 420px;
@@ -21,4 +21,96 @@
 #icons-Div{
     display: flex;
     gap:10px;
+} */
+
+
+#footer-main-Div {
+    display: flex;
+    justify-content: center;
+    gap: 420px;
+    margin-top: 35px;
+    margin-bottom: 13px;
+    flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+}
+
+#footer-right-Div {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap; /* Wrap the right section on smaller screens */
+}
+
+#footer-left-Div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* Center align the left section */
+}
+
+#left-Div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the "Follow Us" section */
+}
+
+#icons-Div {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the icons */
+}
+
+@media (max-width: 768px) {
+    #footer-main-Div {
+        gap: 20px;
+        padding: 0 10px; /* Add some padding for smaller screens */
+    }
+
+    #footer-right-Div {
+        gap: 20px;
+        flex-direction: column; /* Stack the right section items vertically */
+    }
+
+    #footer-left-Div {
+        align-items: center; /* Center align for mobile */
+    }
+
+    #icons-Div {
+        gap: 15px;
+        font-size: 28px; /* Slightly smaller icons on mobile */
+    }
+
+    h5, h6 {
+        font-size: 18px; /* Make text a little smaller for mobile */
+    }
+
+    p {
+        font-size: 14px; /* Smaller text for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    #footer-main-Div {
+        flex-direction: column; /* Stack footer sections vertically on very small screens */
+        gap: 20px;
+    }
+
+    #footer-right-Div {
+        gap: 15px;
+    }
+
+    #footer-left-Div {
+        gap: 15px;
+    }
+
+    #icons-Div {
+        gap: 15px;
+        font-size: 24px; /* Smaller icons */
+    }
+
+    h5, h6 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }
